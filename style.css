@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital@1&display=swap');
+        
+body {
+   background-color: hsl(185, 41%, 84%);
+   
+}
+header {
+    text-align: center;
+    font-weight: 100;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.container {
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: white;
+    max-width: 795px;
+    max-height: 400px;
+    border-radius: 15px;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    padding: 0;
+    box-shadow: -3px 6px 20px 10px rgba(0,0,0,0.05);
+}
+
+.container > div {
+    margin: 35px 20px;
+    
+    
+}
+
+.information {
+    color: hsl(186, 14%, 43%);
+    padding-left: 28px;
+}
+
+.tip {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.tip > input {
+    width: 67px;
+    height: 12px;
+    
+}
+
+.resultado {
+    height: 280px;
+    background-color: hsl(183, 100%, 15%);
+    border-radius: 15px;
+    color: white;
+    padding: 30px;
+}
+
+p {
+    margin: 0px; 
+}
+
+.person {
+    margin-bottom: 55px;
+    color: hsl(186, 14%, 43%);
+    font-size: small;
+}
+
+button {
+    background-color: hsl(183, 100%, 15%);
+    color: hsl(189, 41%, 97%);
+    border-radius: 5px;
+    width: 85px;
+    height: 35px;
+    text-align: center;
+    border: none;
+    font-weight: bold;
+    font-size: medium;
+    margin: 5px;
+    font-family: 'Space Mono', monospace;
+}
+ 
+input {
+    border: none;
+    text-align: right;
+    color: hsl(183, 100%, 15%);
+    font-weight: 700;
+    font-family: 'Space Mono', monospace;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 280px;
+}
+ input:focus , input:active  {
+    border: solid hsl(172, 67%, 45%);
+    outline: none;
+}
+
+input::placeholder {
+   color: hsla(187, 12%, 42%, 0.555);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+   -webkit-appearance: none;
+   
+}
+
+.bills {
+    background-image: url(images/icon-dollar.svg);
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    
+}
+
+.people {
+    background-image: url(images/icon-person.svg);
+    background-repeat: no-repeat;
+    background-position: 10px center;
+}
+
+.reset {
+     color: hsl(183, 100%, 15%);
+     background-color:  hsl(185, 41%, 84%);
+     width: 300px;
+     height: 40px;
+     display: block;
+     margin: auto;
+     margin-top: 90px;
+ }
